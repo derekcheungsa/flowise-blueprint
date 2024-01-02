@@ -12,7 +12,7 @@ services:
       - key : DATABASE_PATH
         value: /opt/render/.flowise
       - key : SECRETKEY_PATH
-        value: /opt/render/.flowise/
+        value: /opt/render/.flowise
     disk:
       name: flowise-disk
       mountPath: /opt/render/.flowise
